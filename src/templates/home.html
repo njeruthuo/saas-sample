@@ -1,0 +1,5 @@
+{% extends "base.html" %} {% block head_title %} Home page | {{block.super}} 
+{% endblock head_title %} {% block content %}
+<h2>Much more from home</h2>
+Page visits count {{count}}
+{% include "snippets/welcome_user_msg.html" %} {% endblock content %}
